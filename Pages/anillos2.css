@@ -1,0 +1,668 @@
+.documentoentero {
+    background-color:lightsteelblue;
+}
+html {
+    font-size: 16px;
+}
+.btn-group {
+    left: 20%;
+}
+.sectorlogo {
+    display: flex;  
+    flex-direction: row; 
+    justify-content: center;
+}
+.pulseralogo {
+    width: 40%;
+}
+.pblogo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.nombrepb {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5fr, 1fr));
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-style: solid;
+    text-transform: uppercase;
+    padding:2% 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.headerpb {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.menureferencias{
+    display: flex;
+    justify-content: space-around;
+}
+.categoriadeanillos {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    font-size: 1rem;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+.categoriadearos {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    font-size: 1rem;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+.categoriadepulseras {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    font-size: 1rem;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+.categoriadeservicios {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    font-size: 1rem;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+.categoriadecadenas {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    font-size: 1rem;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+.anillosheader {
+    width: 95%;
+    height: auto;
+    padding: 30px 20px 15px 20px;
+    }
+.nombreanillos {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 10px 30px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+.textoanillos {
+    text-align: center;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 30px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+.aceroquirurgico {
+    width: 88%;
+    margin: 0 auto;
+}
+.anillosquirurgico {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+.textoquirurgico {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 30px;
+    color: black;
+}
+.fotoquirurgico {
+    width: 250px;
+    margin-left: 15px;
+    height: 200px;
+    margin: 0 auto;
+}
+.blanco {
+    width: 88%;
+    margin: 0 auto;
+}
+.anillosblanco {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+.textoblanco {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 30px;
+    color: black;
+}
+.fotoblanco {
+    width: 250px;
+    margin-left: 15px;
+    height: 200px;
+    margin: 0 auto;
+}
+.consultablanco {
+    display: flex;  
+    flex-direction: row; 
+    justify-content: center;
+    padding-left: 5%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.consultaquirurgico {
+    display: flex;  
+    flex-direction: row; 
+    justify-content: center;
+    padding-left: 5%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.plata900 {
+    width: 88%;
+    margin: 0 auto;
+}
+.anillos900 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+.texto900 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 30px;
+    color: black;
+}
+.foto900 {
+    width: 250px;
+    margin-left: 15px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.consulta900 {
+    display: flex;  
+    flex-direction: row; 
+    justify-content: center;
+    padding-left: 5%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.telefonowpp {
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+hr {
+    width: 80%;
+}
+.consulta925 {
+    display: flex;  
+    flex-direction: row; 
+    justify-content: center;
+    padding-left: 5%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.plata925 {
+    width: 88%;
+    margin: 0 auto;
+
+}
+.anillos925 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+.texto925 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 30px;
+    color: black;
+}
+.foto925 {
+    width: 250px;
+    margin-left: 15px;
+    height: 200px;
+    margin: 0 auto;
+}
+.consultarodinado {
+    display: flex;  
+    flex-direction: row; 
+    justify-content: center;
+    padding-left: 5%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;  
+}
+.platarodinado {
+    width: 88%;
+    margin: 0 auto;
+}
+.anillosrodinado {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+.textorodinado {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 30px;
+    color: black;
+}
+.fotorodinado {
+    width: 250px;
+    margin-left: 15px;
+    height: 200px;
+    margin: 0 auto;
+}
+.cuerpocolumna {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+}
+
+.cuerpo12 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.cuerpo11 {
+    grid-template-columns: repeat(1.09, 1fr);
+}
+
+.cuerpo10 {
+    grid-template-columns: repeat(1.2, 1fr);
+}
+
+.cuerpo9 {
+    grid-template-columns: repeat(1.33, 1fr);
+}
+
+.cuerpo8 {
+    grid-template-columns: repeat(1.5, 1fr);
+}
+
+.cuerpo7 {
+    grid-template-columns: repeat(1.71, 1fr);
+}
+
+.cuerpo6 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cuerpo5 {
+    grid-template-columns: repeat(2.4, 1fr);
+}
+
+.cuerpo4 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cuerpo3 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cuerpo2 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.cuerpo1 {
+    grid-template-columns: repeat(12, 1fr);
+}
+.fotologowpp {
+    width: 5%;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+.fotologowpp {
+    animation-name: nombre;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes nombre {
+    0% {width: 5%;}
+    50% {width: 7%;}
+    100% {width: 5%;}
+}
+
+@media screen and (max-width: 992px) {
+    .cuerpo-md-12 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cuerpo-md-11 {
+        grid-template-columns: repeat(1.09, 1fr);
+    }
+    
+    .cuerpo-md-10 {
+        grid-template-columns: repeat(1.2, 1fr);
+    }
+    
+    .cuerpo-md-9 {
+        grid-template-columns: repeat(1.33, 1fr);
+    }
+    
+    .cuerpo-md-8 {
+        grid-template-columns: repeat(1.5, 1fr);
+    }
+    
+    .cuerpo-md-7 {
+        grid-template-columns: repeat(1.71, 1fr);
+    }
+    
+    .cuerpo-md-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cuerpo-md-5 {
+        grid-template-columns: repeat(2.4, 1fr);
+    }
+    
+    .cuerpo-md-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cuerpo-md-3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .cuerpo-md-2 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .cuerpo-md-1 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .cat-md-12 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cat-md-11 {
+        grid-template-columns: repeat(1.09, 1fr);
+    }
+    
+    .cat-md-10 {
+        grid-template-columns: repeat(1.2, 1fr);
+    }
+    
+    .cat-md-9 {
+        grid-template-columns: repeat(1.33, 1fr);
+    }
+    
+    .cat-md-8 {
+        grid-template-columns: repeat(1.5, 1fr);
+    }
+    
+    .cat-md-7 {
+        grid-template-columns: repeat(1.71, 1fr);
+    }
+    
+    .cat-md-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .ato-md-5 {
+        grid-template-columns: repeat(2.4, 1fr);
+    }
+    
+    .cat-md-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cat-md-3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .cat-md-2 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .cat-md-1 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .textopropaganda {
+        font-size: 1rem;
+    }
+    .nombrepb {
+        font-size: 2rem;
+    }
+    .fotologowpp {
+        width: 9%;
+        position: fixed;
+        bottom: 2%;
+        right: 2%;
+    }
+    .fotologowpp {
+        animation-name: nombre;
+        animation-iteration-count: infinite;
+        animation-duration: 4s;
+    }
+    
+    @keyframes nombre {
+        0% {width: 9%;}
+        50% {width: 12%;}
+        100% {width: 9%;}
+    }
+    .btn-group {
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .cuerpo-sm-12 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cuerpo-sm-11 {
+        grid-template-columns: repeat(1.09, 1fr);
+    }
+    
+    .cuerpo-sm-10 {
+        grid-template-columns: repeat(1.2, 1fr);
+    }
+    
+    .cuerpo-sm-9 {
+        grid-template-columns: repeat(1.33, 1fr);
+    }
+    
+    .cuerpo-sm-8 {
+        grid-template-columns: repeat(1.5, 1fr);
+    }
+    
+    .cuerpo-sm-7 {
+        grid-template-columns: repeat(1.71, 1fr);
+    }
+    
+    .cuerpo-sm-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cuerpo-sm-5 {
+        grid-template-columns: repeat(2.4, 1fr);
+    }
+    
+    .cuerpo-sm-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cuerpo-sm-3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .cuerpo-sm-2 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .cuerpo-sm-1 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .cat-sm-12 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cat-sm-11 {
+        grid-template-columns: repeat(1.09, 1fr);
+    }
+    
+    .cat-sm-10 {
+        grid-template-columns: repeat(1.2, 1fr);
+    }
+    
+    .cat-sm-9 {
+        grid-template-columns: repeat(1.33, 1fr);
+    }
+    
+    .cat-sm-8 {
+        grid-template-columns: repeat(1.5, 1fr);
+    }
+    
+    .cat-sm-7 {
+        grid-template-columns: repeat(1.71, 1fr);
+    }
+    
+    .cat-sm-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cat-sm-5 {
+        grid-template-columns: repeat(2.4, 1fr);
+    }
+    
+    .cat-sm-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cat-sm-3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .cat-sm-2 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .cat-sm-1 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .textopropaganda {
+        font-size: 1rem;
+    }
+    .nombrepb {
+        font-size: 1rem;
+    }
+    .categoriadeanillos {
+        font-size: 1;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .categoriadearos {
+        font-size: 1rem;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .categoriadepulseras {
+        font-size: 1rem;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .categoriadeservicios {
+        font-size: 1rem;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .categoriadecadenas {
+        font-size: 1rem;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .menureferencias {
+        flex-direction: column;
+    }
+    .fotologowpp {
+        width: 15%;
+        position: fixed;
+        bottom: 2%;
+        right: 2%;
+    }
+    .fotologowpp {
+        animation-name: nombre;
+        animation-iteration-count: infinite;
+        animation-duration: 4s;
+    }
+    
+    @keyframes nombre {
+        0% {width: 15%;}
+        50% {width: 19%;}
+        100% {width: 15%;}
+    }
+    .aceroquirurgico {
+        flex-direction: column;
+        align-content: center;
+
+    }
+    .blanco {
+        flex-direction: column;
+        align-content: center;
+
+    }
+    .plata900 {
+        flex-direction: column;
+        align-content: center;
+
+    }
+    .plata925 {
+        flex-direction: column;
+        align-content: center;
+    }
+    .platarodinado {
+        flex-direction: column;
+        align-content: center;
+    }
+    .btn-group {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .pulseralogo {
+        visibility: hidden;
+    }
+    .pblogo {
+        width: 60%;
+        height: auto;
+    }
+}
+

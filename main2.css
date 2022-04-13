@@ -1,0 +1,576 @@
+.documentoentero {
+    background-color:lightgrey!important;
+}
+html {
+    font-size: 16px;
+}
+
+.sectorlogo {   
+    display: flex;  
+    flex-direction: row; 
+    justify-content: center;
+}
+.pulseralogo {
+    width: 40%;
+}
+.pblogo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.nombrepb {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5fr, 1fr));
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-style: solid;
+    text-transform: uppercase;
+    padding:2% 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.headerpb {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.menureferencias{
+    display: flex;
+    justify-content: space-around;
+}
+.categoriadeanillos {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    font-size: 1rem;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+.categoriadearos {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    font-size: 1rem;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+.categoriadepulseras {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    font-size: 1rem;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+.categoriadeservicios {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    font-size: 1rem;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+.categoriadecadenas {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    font-size: 1rem;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+.cuerpocolumna {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+}
+
+.cuerpo12 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.cuerpo11 {
+    grid-template-columns: repeat(1.09, 1fr);
+}
+
+.cuerpo10 {
+    grid-template-columns: repeat(1.2, 1fr);
+}
+
+.cuerpo9 {
+    grid-template-columns: repeat(1.33, 1fr);
+}
+
+.cuerpo8 {
+    grid-template-columns: repeat(1.5, 1fr);
+}
+
+.cuerpo7 {
+    grid-template-columns: repeat(1.71, 1fr);
+}
+
+.cuerpo6 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cuerpo5 {
+    grid-template-columns: repeat(2.4, 1fr);
+}
+
+.cuerpo4 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cuerpo3 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cuerpo2 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.cuerpo1 {
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.lapropaganda {
+    padding: 2%;
+}
+
+.imagenpropaganda {
+    width: 100%;
+}
+
+.propaganda {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    height: auto;
+}
+
+.textopropaganda {
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    transform: translate(-70%, -30%);
+    text-align: left;
+    font-size: 2rem;
+}
+
+.sectioncollar {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.textocollar {
+    border: 10px solid white;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+.sectionpulsera {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.textopulsera {
+    border: 10px solid white;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+.sectionanillo {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.textoanillos {
+    border: 10px solid white;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+.textoaros {
+    border: 10px solid white;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+.sectionaros {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.textoservicio {
+    size: 28px;
+    border: 10px solid white;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+.sectionservicio {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.fotocategoriacollar {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fotocategoriapulsera {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fotocategoriaanillos {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fotocategoriaaros {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fotocategoriaservicios {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.piedepagina{
+    text-align: center;
+}
+.telefonowpp {
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.fotologowpp {
+    width: 5%;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+.tituloformulario {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .cuerpo-md-12 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cuerpo-md-11 {
+        grid-template-columns: repeat(1.09, 1fr);
+    }
+    
+    .cuerpo-md-10 {
+        grid-template-columns: repeat(1.2, 1fr);
+    }
+    
+    .cuerpo-md-9 {
+        grid-template-columns: repeat(1.33, 1fr);
+    }
+    
+    .cuerpo-md-8 {
+        grid-template-columns: repeat(1.5, 1fr);
+    }
+    
+    .cuerpo-md-7 {
+        grid-template-columns: repeat(1.71, 1fr);
+    }
+    
+    .cuerpo-md-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cuerpo-md-5 {
+        grid-template-columns: repeat(2.4, 1fr);
+    }
+    
+    .cuerpo-md-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cuerpo-md-3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .cuerpo-md-2 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .cuerpo-md-1 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .cat-md-12 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cat-md-11 {
+        grid-template-columns: repeat(1.09, 1fr);
+    }
+    
+    .cat-md-10 {
+        grid-template-columns: repeat(1.2, 1fr);
+    }
+    
+    .cat-md-9 {
+        grid-template-columns: repeat(1.33, 1fr);
+    }
+    
+    .cat-md-8 {
+        grid-template-columns: repeat(1.5, 1fr);
+    }
+    
+    .cat-md-7 {
+        grid-template-columns: repeat(1.71, 1fr);
+    }
+    
+    .cat-md-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .ato-md-5 {
+        grid-template-columns: repeat(2.4, 1fr);
+    }
+    
+    .cat-md-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cat-md-3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .cat-md-2 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .cat-md-1 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .textopropaganda {
+        font-size: 1rem;
+    }
+    .nombrepb {
+        font-size: 2rem;
+    }
+    .fotologowpp {
+        width: 9%;
+        position: fixed;
+        bottom: 2%;
+        right: 2%;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .cuerpo-sm-12 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cuerpo-sm-11 {
+        grid-template-columns: repeat(1.09, 1fr);
+    }
+    
+    .cuerpo-sm-10 {
+        grid-template-columns: repeat(1.2, 1fr);
+    }
+    
+    .cuerpo-sm-9 {
+        grid-template-columns: repeat(1.33, 1fr);
+    }
+    
+    .cuerpo-sm-8 {
+        grid-template-columns: repeat(1.5, 1fr);
+    }
+    
+    .cuerpo-sm-7 {
+        grid-template-columns: repeat(1.71, 1fr);
+    }
+    
+    .cuerpo-sm-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cuerpo-sm-5 {
+        grid-template-columns: repeat(2.4, 1fr);
+    }
+    
+    .cuerpo-sm-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cuerpo-sm-3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .cuerpo-sm-2 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .cuerpo-sm-1 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .cat-sm-12 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cat-sm-11 {
+        grid-template-columns: repeat(1.09, 1fr);
+    }
+    
+    .cat-sm-10 {
+        grid-template-columns: repeat(1.2, 1fr);
+    }
+    
+    .cat-sm-9 {
+        grid-template-columns: repeat(1.33, 1fr);
+    }
+    
+    .cat-sm-8 {
+        grid-template-columns: repeat(1.5, 1fr);
+    }
+    
+    .cat-sm-7 {
+        grid-template-columns: repeat(1.71, 1fr);
+    }
+    
+    .cat-sm-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cat-sm-5 {
+        grid-template-columns: repeat(2.4, 1fr);
+    }
+    
+    .cat-sm-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cat-sm-3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .cat-sm-2 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .cat-sm-1 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .textopropaganda {
+        font-size: 1rem;
+    }
+    .nombrepb {
+        font-size: 1rem;
+    }
+    .categoriadeanillos {
+        font-size: 1;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .categoriadearos {
+        font-size: 1;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .categoriadepulseras {
+        font-size: 1;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .categoriadeservicios {
+        font-size: 1;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .categoriadecadenas {
+        font-size: 1;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .fotologowpp {
+        width: 15%;
+        position: fixed;
+        bottom: 2%;
+        right: 2%;
+    }
+    .lapropaganda {
+        padding-top: 7%;
+    }
+    .textopropaganda {
+        position: absolute;
+        top: 20%;
+        left: 42%;
+        transform: translate(-70%, -30%);
+    }
+    .menureferencias {
+        flex-direction: column;
+    }
+    .pulseralogo {
+        visibility: hidden;
+    }
+    .pblogo {
+        width: 60%;
+        height: auto;
+    }
+
+}

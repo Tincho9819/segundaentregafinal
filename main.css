@@ -1,0 +1,555 @@
+.documentoentero {
+    background-color:lightsteelblue;
+}
+html {
+    font-size: 16px;
+}
+
+.sectorlogo {   
+    display: flex;  
+    flex-direction: row; 
+    justify-content: center;
+}
+.pulseralogo {
+    width: 40%;
+}
+.pblogo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.fotologowpp {
+    animation-name: nombre;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes nombre {
+    0% {width: 5%;}
+    50% {width: 7%;}
+    100% {width: 5%;}
+}
+.nombrepb {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5fr, 1fr));
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-style: solid;
+    text-transform: uppercase;
+    padding:2% 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.headerpb {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.cuerpocolumna {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+}
+
+.cuerpo12 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.cuerpo11 {
+    grid-template-columns: repeat(1.09, 1fr);
+}
+
+.cuerpo10 {
+    grid-template-columns: repeat(1.2, 1fr);
+}
+
+.cuerpo9 {
+    grid-template-columns: repeat(1.33, 1fr);
+}
+
+.cuerpo8 {
+    grid-template-columns: repeat(1.5, 1fr);
+}
+
+.cuerpo7 {
+    grid-template-columns: repeat(1.71, 1fr);
+}
+
+.cuerpo6 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cuerpo5 {
+    grid-template-columns: repeat(2.4, 1fr);
+}
+
+.cuerpo4 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cuerpo3 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cuerpo2 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.cuerpo1 {
+    grid-template-columns: repeat(12, 1fr);
+}
+.lapropaganda {
+    padding: 2%;
+}
+.btn-group {
+    left: 20%;
+}
+.imagenpropaganda {
+    width: 100%;
+}
+
+.propaganda {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    height: auto;
+}
+
+.textopropaganda {
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    transform: translate(-70%, -30%);
+    text-align: left;
+    font-size: 2rem;
+}
+
+.sectioncollar {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.textocollar {
+    border: 10px solid white;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+.sectionpulsera {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.textopulsera {
+    border: 10px solid white;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+.sectionanillo {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.textoanillos {
+    border: 10px solid white;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+.textoaros {
+    border: 10px solid white;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+.sectionaros {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.textoservicio {
+    size: 28px;
+    border: 10px solid white;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+.sectionservicio {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.fotocategoriacollar {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fotocategoriapulsera {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fotocategoriaanillos {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fotocategoriaaros {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fotocategoriaservicios {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.piedepagina{
+    text-align: center;
+}
+
+.piedepagina{
+    text-align: center;
+}
+.telefonowpp {
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.fotologowpp {
+    width: 5%;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+.tituloformulario {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.nombre12 {
+    transition: width 1s;
+}
+.nombre12:hover {
+    width: 300px;
+    background-color: aliceblue;
+}
+.apellido12 {
+    transition: width 1s;
+}
+.apellido12:hover {
+    width: 300px;
+    background-color: aliceblue;
+}
+.telefono12 {
+    transition: width 1s;
+}
+.telefono12:hover {
+    width: 300px;
+    background-color: aliceblue;
+}
+.mail12 {
+    transition: width 1s;
+}
+.mail12:hover {
+    width: 300px;
+    background-color: aliceblue;
+}
+.productos12 {
+    transition: width 1s;
+}
+.productos12:hover {
+    width: 300px;
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 992px) {
+    .cuerpo-md-12 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cuerpo-md-11 {
+        grid-template-columns: repeat(1.09, 1fr);
+    }
+    
+    .cuerpo-md-10 {
+        grid-template-columns: repeat(1.2, 1fr);
+    }
+    
+    .cuerpo-md-9 {
+        grid-template-columns: repeat(1.33, 1fr);
+    }
+    
+    .cuerpo-md-8 {
+        grid-template-columns: repeat(1.5, 1fr);
+    }
+    
+    .cuerpo-md-7 {
+        grid-template-columns: repeat(1.71, 1fr);
+    }
+    
+    .cuerpo-md-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cuerpo-md-5 {
+        grid-template-columns: repeat(2.4, 1fr);
+    }
+    
+    .cuerpo-md-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cuerpo-md-3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .cuerpo-md-2 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .cuerpo-md-1 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .cat-md-12 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cat-md-11 {
+        grid-template-columns: repeat(1.09, 1fr);
+    }
+    
+    .cat-md-10 {
+        grid-template-columns: repeat(1.2, 1fr);
+    }
+    
+    .cat-md-9 {
+        grid-template-columns: repeat(1.33, 1fr);
+    }
+    
+    .cat-md-8 {
+        grid-template-columns: repeat(1.5, 1fr);
+    }
+    
+    .cat-md-7 {
+        grid-template-columns: repeat(1.71, 1fr);
+    }
+    
+    .cat-md-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .ato-md-5 {
+        grid-template-columns: repeat(2.4, 1fr);
+    }
+    
+    .cat-md-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cat-md-3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .cat-md-2 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .cat-md-1 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .nombrepb {
+        font-size: 2rem;
+    }
+    .fotologowpp {
+        width: 9%;
+        position: fixed;
+        bottom: 2%;
+        right: 2%;
+    }
+    .fotologowpp {
+        animation-name: nombre;
+        animation-iteration-count: infinite;
+        animation-duration: 4s;
+    }
+    
+    @keyframes nombre {
+        0% {width: 9%;}
+        50% {width: 12%;}
+        100% {width: 9%;}
+    }
+    .btn-group {
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .cuerpo-sm-12 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cuerpo-sm-11 {
+        grid-template-columns: repeat(1.09, 1fr);
+    }
+    
+    .cuerpo-sm-10 {
+        grid-template-columns: repeat(1.2, 1fr);
+    }
+    
+    .cuerpo-sm-9 {
+        grid-template-columns: repeat(1.33, 1fr);
+    }
+    
+    .cuerpo-sm-8 {
+        grid-template-columns: repeat(1.5, 1fr);
+    }
+    
+    .cuerpo-sm-7 {
+        grid-template-columns: repeat(1.71, 1fr);
+    }
+    
+    .cuerpo-sm-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cuerpo-sm-5 {
+        grid-template-columns: repeat(2.4, 1fr);
+    }
+    
+    .cuerpo-sm-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cuerpo-sm-3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .cuerpo-sm-2 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .cuerpo-sm-1 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .cat-sm-12 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cat-sm-11 {
+        grid-template-columns: repeat(1.09, 1fr);
+    }
+    
+    .cat-sm-10 {
+        grid-template-columns: repeat(1.2, 1fr);
+    }
+    
+    .cat-sm-9 {
+        grid-template-columns: repeat(1.33, 1fr);
+    }
+    
+    .cat-sm-8 {
+        grid-template-columns: repeat(1.5, 1fr);
+    }
+    
+    .cat-sm-7 {
+        grid-template-columns: repeat(1.71, 1fr);
+    }
+    
+    .cat-sm-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cat-sm-5 {
+        grid-template-columns: repeat(2.4, 1fr);
+    }
+    
+    .cat-sm-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cat-sm-3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .cat-sm-2 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .cat-sm-1 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .textopropaganda {
+        font-size: 1rem;
+    }
+    .nombrepb {
+        font-size: 1rem;
+    }
+
+    .fotologowpp {
+        width: 15%;
+        position: fixed;
+        bottom: 2%;
+        right: 2%;
+    }
+    .fotologowpp {
+        animation-name: nombre;
+        animation-iteration-count: infinite;
+        animation-duration: 4s;
+    }
+    
+    @keyframes nombre {
+        0% {width: 15%;}
+        50% {width: 19%;}
+        100% {width: 15%;}
+    }
+    .pulseralogo {
+        visibility: hidden;
+    }
+    .pblogo {
+        width: 60%;
+        height: auto;
+    }
+    .btn-group {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+}
