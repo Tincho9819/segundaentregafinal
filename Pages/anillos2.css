@@ -5,9 +5,16 @@ html {
     font-size: 16px;
 }
 .btn-group {
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
 }
+.dropdown-toggle {
+    font-size: 150%;
+}
+
 .sectorlogo {
     display: flex;  
     flex-direction: row; 
@@ -469,8 +476,7 @@ hr {
         100% {width: 9%;}
     }
     .btn-group {
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
     }
 }
 
@@ -657,6 +663,7 @@ hr {
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+        margin-left: 20%;
     }
     
     .pulseralogo {
